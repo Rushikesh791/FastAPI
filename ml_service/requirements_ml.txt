@@ -1,0 +1,13 @@
+numpy==1.23.5
+pandas
+scipy
+matplotlib
+seaborn
+
+# ML / legacy
+scikit-learn
+PyWavelets<=1.0.0
+predict==3.1.17
+pyradiomics>=3.0
+SimpleITK
+pydicom
