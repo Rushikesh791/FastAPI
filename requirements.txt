@@ -1,0 +1,13 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+requests
+streamlit
+
+fastapi
+uvicorn
+schemas
+predict
+typing 
