@@ -72,34 +72,40 @@
     Best practices followed in real-world projects
 
 Project Structure: 
-  fastapi-repo/
-  │
-  ├── app/
-  │   ├── main.py          # Application entry point
-  │   ├── routers/         # API routes
-  │   ├── schemas/         # Pydantic models
-  │   ├── services/        # Business logic
-  │   └── utils/           # Helper utilities
-  │
-  ├── requirements.txt
-  ├── README.md
-  └── .env (optional)
+      fastapi-repo/
+      │
+      ├── app/
+      │   ├── main.py          # Application entry point
+      │   ├── routers/         # API routes
+      │   ├── schemas/         # Pydantic models
+      │   ├── services/        # Business logic
+      │   └── utils/           # Helper utilities
+      │
+      ├── requirements.txt
+      ├── README.md
+      └── .env (optional)
 
 
 ▶ How to Run the Project
+
   Step 1: Clone Repository
+  
     git clone https://github.com/your-username/fastapi-repo.git
+    
     cd fastapi-repo
 
   Step 2: Create Virtual Environment
+  
     python -m venv venv
     venv\Scripts\activate   # Windows
     source venv/bin/activate # Linux/Mac
     
   Step 3: Install Dependencies
+  
     pip install -r requirements.txt
   
   Step 4: Run FastAPI Server
+  
     uvicorn app.main:app --reload
 
 
